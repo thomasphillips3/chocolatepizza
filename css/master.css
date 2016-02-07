@@ -100,3 +100,7 @@ body {
   -moz-column-count: 2; /* Firefox */
   column-count: 2;
 }
+
+.recipeList ul {
+  list-style-type: none;
+}
