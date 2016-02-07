@@ -18,11 +18,14 @@
 #logo-text {
   float: none;
   margin: 0 0 1px 5px;
+  font-family: 'Yellowtail', cursive;
 }
 
 #tagline {
   float: none;
   margin: 0 0 1px 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
 }
 
 .margin-0 {
@@ -48,6 +51,7 @@ body {
   margin-left: 10em;
   margin-right: 10em;
 }
+
 .headerTitle {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 4em;
@@ -100,3 +104,13 @@ body {
   -moz-column-count: 2; /* Firefox */
   column-count: 2;
 }
+
+
+/* ``` footer ``` */
+
+.footer {
+  color: lightgray;
+	text-align:center;
+}
+
+  /* ``` /footer ``` */
