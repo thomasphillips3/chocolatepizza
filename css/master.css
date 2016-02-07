@@ -116,6 +116,7 @@ body {
 
 .recipeList ul {
   list-style-type: none;
+}
 
 .icon {
   flex: initial;
@@ -129,7 +130,7 @@ body {
 }
 
 #shareButton {
-  background-color: rgb(188, 112, 88); /* Green */
+  background-color: rgb(188, 112, 88);
   border: none;
   color: white;
   padding: 0 2em;
