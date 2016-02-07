@@ -1,6 +1,49 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+/* ``` header ``` */
+.container {
+  display: flex;
+}
+
+.logo-set {
+  flex: initial;
+}
+
+.flex {
+  flex: 1;
+}
+
+#logo {
+  float: left;
+}
+
+#logo-text {
+  float: none;
+  margin: 0 0 1px 5px;
+}
+
+#tagline {
+  float: none;
+  margin: 0 0 1px 5px;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+div.social {
+  justify-content: flex-end;
+  float: right;
+}
+
+.social {
+  display: inline-block;
+}
+
+.paddingRight {
+  padding-right: 10px;
+}
+
+/* ``` /header ``` */
+
 body {
   margin-left: 10em;
   margin-right: 10em;
@@ -56,52 +99,4 @@ body {
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
   column-count: 2;
-
-=======
->>>>>>> mainsection
-.container {
-  display: flex;
-}
-
-.logo-set {
-  flex: initial;
-}
-
-.flex {
-  flex: 1;
-}
-
-#logo {
-  float: left;
-}
-
-#logo-text {
-  float: none;
-  margin: 0 0 1px 5px;
-}
-
-#tagline {
-  float: none;
-  margin: 0 0 1px 5px;
-}
-
-.margin-0 {
-  margin: 0;
-}
-
-div.social {
-  justify-content: flex-end;
-  float: right;
-}
-
-.social {
-  display: inline-block;
-}
-
-.paddingRight {
-  padding-right: 10px;
-<<<<<<< HEAD
-=======
->>>>>>> master
->>>>>>> mainsection
 }
