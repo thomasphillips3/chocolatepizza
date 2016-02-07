@@ -28,5 +28,16 @@ body {
 .print {
   width: 25%;
   margin-right: 10em;
-  text-align: right;
+  text-align: center;
+}
+.recipeBody {
+  margin-right: 3em;
+}
+.recipeBody img {
+  margin: 0 auto;
+}
+
+.recipeBody p {
+  text-indent: 5%;
+  color: gray;
 }
