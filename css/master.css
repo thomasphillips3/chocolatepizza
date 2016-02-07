@@ -1,3 +1,64 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+body {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+.headerTitle {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+.postInfo {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  height: 1.5em;
+  width: 70em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+.postDetails, .print {
+  height: 1.5em;
+  /*width: 18.75em;*/
+  color: lightgray;
+}
+.postDetails {
+  width: 75%;
+}
+.print {
+  width: 25%;
+  margin-right: 10em;
+  text-align: center;
+}
+.recipeBody {
+  margin-right: 3em;
+}
+.recipeBody img {
+  margin: 0 auto;
+}
+
+.recipeBody p {
+  text-indent: 5%;
+  color: gray;
+}
+
+.recipeList {
+  background-image: url(../res/list-bg.png);
+  width: 75%;
+  height: 10em;
+  margin: 0 auto;
+  font-size: 1.6em;
+  font-family: 'Handlee', cursive;
+  color: gray;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+
+=======
+>>>>>>> mainsection
 .container {
   display: flex;
 }
@@ -39,4 +100,8 @@ div.social {
 
 .paddingRight {
   padding-right: 10px;
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> mainsection
 }
