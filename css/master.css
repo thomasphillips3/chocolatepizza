@@ -1,0 +1,32 @@
+body {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+.headerTitle {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+.postInfo {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  height: 1.5em;
+  width: 70em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+.postDetails, .print {
+  height: 1.5em;
+  /*width: 18.75em;*/
+  color: lightgray;
+}
+.postDetails {
+  width: 75%;
+}
+.print {
+  width: 25%;
+  margin-right: 10em;
+  text-align: right;
+}
