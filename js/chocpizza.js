@@ -9,10 +9,14 @@
     }
   }
   function handleChecks(e){
-    checkFather = document.getElementsByTagName('ul');
-    console.log(e.target);
-
-    // console.log("clicked" + e.target);
+    if (e.target.checked) {
+      console.log("checked");
+      e.target.parentElement.style.textDecoration="line-through";
+      console.log(e.target.parentElement.textContent);
+    }
+    else {
+      console.log("unchecked");
+      e.target.parentElement.style.textDecoration="none";
+    }
   }
-  // console.log(elListItems);
 }())
