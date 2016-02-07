@@ -41,3 +41,17 @@ body {
   text-indent: 5%;
   color: gray;
 }
+
+.recipeList {
+  background-image: url(../res/list-bg.png);
+  width: 75%;
+  height: 10em;
+  margin: 0 auto;
+  font-size: 1.6em;
+  font-family: 'Handlee', cursive;
+  color: gray;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+
+}
