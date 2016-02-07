@@ -11,7 +11,6 @@
   function handleChecks(e){
     checkFather = document.getElementsByTagName('ul');
     console.log(e.target);
-    e.target.parentNode.style.wrap
 
     // console.log("clicked" + e.target);
   }
