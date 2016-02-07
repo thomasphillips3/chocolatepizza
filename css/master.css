@@ -29,7 +29,7 @@
   margin: 0;
 }
 
-div.social {
+div.social, #shareButton {
   justify-content: flex-end;
   float: right;
 }
@@ -103,4 +103,43 @@ body {
 
 .recipeList ul {
   list-style-type: none;
+
+.icon {
+  flex: initial;
+}
+
+.footWrap {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1.5em solid black;
+  color: gray;
+}
+
+#shareButton {
+  background-color: rgb(188, 112, 88); /* Green */
+  border: none;
+  color: white;
+  padding: 0 2em;
+  margin-top: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  font-variant: small-caps;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.about p {
+  margin-top: 0;
+}
+
+.about h2 {
+  margin-bottom: 0;
+}
+
+.about {
+  margin-left: 1em;
+}
+
+.avatar{
+  margin-top: 1em;
 }
